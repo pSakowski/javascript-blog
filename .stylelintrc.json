@@ -2,7 +2,6 @@
   "plugins": [
     "stylelint-scss"
   ],
-  "customSyntax": "postcss-less",
   "rules": {
     "block-no-empty": true,
     "color-no-invalid-hex": true,
