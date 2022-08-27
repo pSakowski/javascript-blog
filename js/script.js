@@ -241,7 +241,7 @@ const generateAuthors = function () {
   /* [NEW] find list of authors in right column */
   const authorsList = document.querySelector(optAuthorsListSelector);
   /* [NEW] create variable for all links HTML code */
-  let allAuthorsData = {authors: []};
+  const allAuthorsData = {authors: []};
   /* [NEW] START LOOP: for each author in allAuthor: */
   for(let author in allAuthors){
     /* [NEW] generate code of a link and add it to allAuthorsHTML */
